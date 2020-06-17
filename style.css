@@ -37,7 +37,7 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:url(/Users/taniguchiryousuke/Desktop/web-design/demo-web/corporate-template/main-image.png);
+  background-image:url(https://raw.githubusercontent.com/Tani0706/practice_corporate/master/main-image.png);
 }
 main h1{
   text-align: center;
