@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+header{
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  margin: 0;
+  padding: 0px 2rem;
+}
+header ul{
+  display: flex;
+  list-style-type: none;
+  margin:0;
+}
+header ul a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px 20px;
+}
+.contact{
+  background-color:#30d0ed;
+  color: white;
+  margin: 0;
+  padding: 1rem 2rem;
+
+}
+main{
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url(/Users/taniguchiryousuke/Desktop/web-design/demo-web/corporate-template/main-image.png);
+}
+main h1{
+  text-align: center;
+  font-family:Cormorant Garamond;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+main h1,main p{
+  color: #ffffff;
+  text-shadow: 1px 1px 2px white;
+  margin: 0;
+  padding:10px;
+}
+.news{
+  height: 8rem;
+  background-color: #edfcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-title{
+  display: flex;
+  flex-direction: column;
+  padding:0px 15px 15px 15px;
+}
+.news-title h2{
+  margin: 0;
+  color: #009ce1;
+}
+.news-title p{
+  margin: 0;
+  font-size: 11px;
+}
+td{
+  margin: 1px;
+  padding:0px 10px;
+  font-size: 11px;
+  border: 0.5px #30d0ed;
+  border-style: none none solid none;
+}
+
+.news-tag{
+  color: white;
+  background-color:#009ce1 ;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  padding:0px 1rem;
+  border-radius: 2px;
+}
+.service{
+  height: 6rem;
+}
+.service-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #009ce1;
+}
+.service-title h2{
+  margin: 0;
+  padding: 30px 10px 0 10px;
+}
+.service-title p{
+  font-size: 11px;
+  margin: 0;
+  padding:0px 10px 5px;
+}
+.service-img{
+  display: flex;
+  justify-content: center;
+}
